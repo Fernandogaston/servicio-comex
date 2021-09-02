@@ -1,0 +1,418 @@
+@charset "UTF-8";
+/* Framework Bootstrap */
+/* bloques con operaciones */
+.body__estilo {
+  background-color: white;
+  width: 100%; }
+
+.header__color {
+  background-color: white; }
+
+.header__menu__logo {
+  width: 75%;
+  height: 150px; }
+
+.Footer__Final {
+  background-color: #5815F8;
+  width: 100%;
+  height: auto; }
+
+.Estilo__Menu {
+  margin-top: 60px;
+  font-weight: bold; }
+
+.Estilo__Menu li > a:hover {
+  background-color: #FFC100;
+  color: white;
+  font-weight: bold; }
+
+.Servicio__Integral {
+  height: 40px;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background-color: #5815F8;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 50px; }
+
+.Sobre__Nosotros {
+  height: 40px;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #5815F8;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 5px; }
+
+.Sobre__Nosotros:hover {
+  color: white;
+  text-decoration: none; }
+
+.Parrafo__Nosotros {
+  background-color: #333;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: justify;
+  padding: 30px;
+  height: 350px;
+  background-image: linear-gradient(to right, #333, #808782); }
+
+.FotoNosotros {
+  width: 100%;
+  margin-top: 5px; }
+
+.Servicios {
+  height: 40px;
+  width: 100%;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #5815F8;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 5px; }
+
+.Servicios:hover {
+  color: white;
+  text-decoration: none; }
+
+/* imagenes impo_Expo, Consultoría, Trading y Forwarding se utilizan como fondo en sección servicios en index.html */
+.Impo_Expo {
+  background-image: url(../img/Impo_Expo.png);
+  height: 280px;
+  background-size: cover;
+  background-position: center center; }
+
+.Consultoria {
+  background-image: url(../img/Consultoría.png);
+  height: 280px;
+  background-size: cover;
+  background-position: center center; }
+
+.Trading {
+  background-image: url(../img/Trading.png);
+  height: 280px;
+  background-size: cover;
+  background-position: center center; }
+
+.Forwarding {
+  background-image: url(../img/Forwarder.png);
+  height: 280px;
+  background-size: cover;
+  background-position: center center; }
+
+.Formulario {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; }
+
+.enlaces {
+  text-decoration: none;
+  color: white; }
+
+.enlaces:hover {
+  color: #FFC100;
+  text-decoration: none; }
+
+.title {
+  clear: both;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  background-color: #5815F8;
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+  padding-bottom: 2px;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 100%; }
+
+.texto-nosotros {
+  color: white;
+  text-align: justify;
+  text-decoration: none;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 3px;
+  word-spacing: 1px;
+  line-height: 22px;
+  margin: 2%; }
+
+.TextoServicios {
+  padding: 7px;
+  background-color: #5815F8;
+  font-family: "Roboto", Arial, serif;
+  text-transform: capitalize;
+  text-align: center;
+  border: 3px solid #FFC100;
+  border-radius: 5px;
+  padding: 5px 5px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  margin: 20px; }
+
+.seccion_servicios {
+  background-color: #333; }
+
+.clear {
+  clear: both; }
+
+.clear2 {
+  clear: both;
+  background-color: #333;
+  color: white;
+  text-align: left;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  line-height: 30px; }
+
+.Titulos_Servicios {
+  color: #f7941d;
+  margin-left: 50px;
+  margin-top: 20px; }
+
+.Servicios_ul {
+  list-style-type: square;
+  margin-left: 80px; }
+
+.IrAlInicio {
+  cursor: pointer; }
+
+.text-pie {
+  font-family: sans-serif;
+  text-align: left;
+  color: #D9D9D9;
+  font-size: 15px;
+  line-height: 30px;
+  list-style-type: none;
+  padding-top: 0;
+  float: left;
+  margin-top: 40px;
+  margin-left: 8%; }
+
+.social {
+  text-align: center;
+  clear: both;
+  margin-top: 20px;
+  padding: 40px; }
+
+.whatsapp {
+  float: right;
+  margin-top: -15px;
+  margin-right: 15px; }
+
+.img-portada {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+
+.PrincipalServicios {
+  background-color: white; }
+
+/* Clases .caja 1 a 5 para imágenes en página Contacto con animation y transform */
+.caja1 {
+  height: 40px;
+  color: white;
+  letter-spacing: 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background-color: #5815F8;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  font-weight: bold; }
+
+.animate__shakeX {
+  animation-duration: 3s; }
+
+.caja2 {
+  background-image: url(../img/Negocios.png);
+  background-size: cover;
+  height: 315px; }
+
+.caja2:hover {
+  transform: scale(1.05, 1.05); }
+
+.animate__animated.animate__bounceIn {
+  --animate-duration: 3s; }
+
+.caja3 {
+  background-image: url(../img/Avión.jpg);
+  background-size: cover;
+  height: 315px; }
+
+.caja3:hover {
+  transform: scale(1.05, 1.05); }
+
+.animate__animated.animate__bounceIn {
+  --animate-duration: 3s; }
+
+.caja4 {
+  background-image: url(../img/Truck.png);
+  background-size: cover;
+  height: 315px; }
+
+.caja4:hover {
+  transform: scale(1.05, 1.05); }
+
+.animate__animated.animate__bounceIn {
+  --animate-duration: 3s; }
+
+.caja5 {
+  background-image: url(../img/Vessel.png);
+  background-size: cover;
+  height: 315px; }
+
+.caja5:hover {
+  transform: scale(1.05, 1.05); }
+
+.animate__animated.animate__bounceIn {
+  --animate-duration: 3s; }
+
+/* clases caja 14 y 15 footer, dirección y links de interés */
+.caja14 {
+  font-family: var(--bs-body-font-family);
+  color: white;
+  font-size: 15px;
+  line-height: 15px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  margin-top: 12px; }
+
+.caja15 {
+  font-family: var(--bs-body-font-family);
+  color: white;
+  font-size: 15px;
+  line-height: 30px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none; }
+
+.ColorLinks a:hover {
+  color: #F4D35E; }
+
+/* clases caja 17 ícono facebook y 18 ícono twitter en footer */
+.caja17 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 30px; }
+
+.caja18 {
+  margin-top: 30px; }
+
+.cajaservicios {
+  background-color: #333;
+  color: white;
+  font-family: sans-serif;
+  font-size: 15px;
+  line-height: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; }
+
+/* cajas herramientas = página herramientas */
+.cajatitleherramientas {
+  height: 40px;
+  letter-spacing: 2px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background-color: #5815F8;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  font-weight: bold; }
+
+.cajaherramientas1 {
+  height: 250px;
+  width: 350px;
+  background-image: url(../img/Contenedor.png);
+  background-size: cover; }
+
+.cajaherramientas2 {
+  background-image: url(../img/Conversor2.png);
+  background-size: cover; }
+
+.cajaherramientas3 {
+  background-image: url(../img/Tipodecambio.png);
+  background-size: cover; }
+
+.cajaherramientas4 {
+  background-image: url(../img/incoterms.png);
+  background-size: cover; }
+
+/* Media Queries */
+@media only screen and (max-width: 575px) {
+  .Estilo__Menu {
+    margin-top: 0;
+    font-size: 12px;
+    font-weight: bold; }
+  .Servicio__Integral {
+    font-size: 18px; }
+  .Parrafo__Nosotros {
+    text-align: center;
+    font-size: smaller;
+    margin-left: 15px;
+    padding: 15px; }
+  .caja14 {
+    font-family: var(--bs-body-font-family);
+    color: white;
+    font-size: 15px;
+    line-height: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+    margin-top: 12px; }
+  .caja17 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 30px; }
+  .caja18 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 30px; }
+  .Formulario {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center; } }
