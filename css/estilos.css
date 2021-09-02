@@ -416,3 +416,7 @@
     display: flex;
     flex-direction: column;
     align-items: center; } }
+
+/* Hide Scrollbars */
+.scroll_bar {
+  overflow-x: hidden; }
