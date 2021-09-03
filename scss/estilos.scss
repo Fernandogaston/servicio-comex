@@ -106,6 +106,13 @@
     text-decoration: none;
     }
   
+  .imagenes-carousel {
+    height: 500px;
+    object-fit: cover;
+    object-position: center center;
+    margin-top: 5px;
+  }
+  
   /* imagenes impo_Expo, Consultoría, Trading y Forwarding se utilizan como fondo en sección servicios en index.html */
   
   .Impo_Expo {
