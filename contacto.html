@@ -15,38 +15,51 @@
     <title>Add Valorem - Contacto</title>
 </head>
 <body class="body__estilo scroll_bar">
+  <header>
     <a id="Inicio"></a>
-  <!--logo y menu-->
-  <div class="container-fluid"></div>
-        <header class="row header__color">
-            <div class="col-sm-4 justify-content-start"><img src="img/Logo.png" alt="" class="animate__animated animate__bounceIn header__menu__logo"></div>
-            <div class="col-sm-8">
-            <ul class="nav nav-pills justify-content-end Estilo__Menu">
+    <!--logo y menu-->
+    <nav class="navbar navbar-light navbar-expand-md bg-white">
+      <div class="container-fluid">
+        <a class="navbar-brand"><img src="img/Logo3.png" alt="" class="animate__animated animate__bounceIn" style="width:350px; height:180px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel" style="color:#333">Add Valorem</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 Estilo__Menu">
               <li class="nav-item">
-                <a class="nav-link" href="index.html" style="color:#5815F8">Home</a>
+                <a class="nav-link active" aria-current="page" href="index.html" style="color:#5815F8">Home</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="nosotros.html" style="color:#5815F8">Nosotros</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="servicios.html" role="button" aria-expanded="false" style="color:#5815F8">Servicios</a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="servicios.html" style="color:#5815F8">Importación y Exportación</a></li>
-                    <li><a class="dropdown-item" href="servicios.html" style="color:#5815F8">Consultoría</a></li>
-                    <li><a class="dropdown-item" href="servicios.html" style="color:#5815F8">Trading</a></li>
-                    <li><a class="dropdown-item" href="servicios.html" style="color:#5815F8">Forwarding</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="herramientas.html" tabindex="-1" aria-disabled="true" style="color:#5815F8">Herramientas</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contacto.html" tabindex="-1" aria-disabled="true" style="color:#5815F8">Contacto</a>
-                  </li>
-              </ul>
-            </div>
-        </header>
-        <!--introducción contacto con fotos animation y transform-->
+                <a class="nav-link" href="nosotros.html" style="color:#5815F8">Nosotros</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="servicios.html" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color:#5815F8">
+                  Servicios
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                  <li><a class="dropdown-item" href="servicios.html" style="color:#5815F8">Importación y Exportación</a></li>
+                  <li><a class="dropdown-item" href="servicios.html" style="color:#5815F8">Consultoría</a></li>
+                  <li><a class="dropdown-item" href="servicios.html" style="color:#5815F8">Trading</a></li>
+                  <li><a class="dropdown-item" href="servicios.html" style="color:#5815F8">Forwarding</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="herramientas.html" style="color:#5815F8">Herramientas</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="contacto.html" style="color:#5815F8">Contacto</a>
+              </li>
+            </ul>
+          </div>
+      </div>
+    </nav>
+  <header>
+    <!--introducción contacto con fotos animation y transform-->
         <section>  
             <div class="row principal">
                 <div class="col-sm-12 caja1">Contacto</div>
@@ -123,8 +136,8 @@
                         </label>
                       </div>
                     </div>
-                    <div class="col-4">
-                      <button class="btn btn-primary" type="submit">Enviar</button>
+                    <div class="col-2">
+                      <button class="btn btn-dark" type="submit">Enviar</button>
                     </div>
                 </form>   
             </div>

@@ -18,13 +18,14 @@
   height: auto; }
 
 .Estilo__Menu {
-  margin-top: 60px;
+  margin: 0px;
   font-weight: bold; }
 
 .Estilo__Menu li > a:hover {
   background-color: #FFC100;
   color: white;
-  font-weight: bold; }
+  font-weight: bold;
+  border-radius: 5px; }
 
 .Servicio__Integral {
   height: 40px;
@@ -385,7 +386,6 @@
 /* Media Queries */
 @media only screen and (max-width: 575px) {
   .Estilo__Menu {
-    margin-top: 0;
     font-size: 12px;
     font-weight: bold; }
   .Servicio__Integral {
