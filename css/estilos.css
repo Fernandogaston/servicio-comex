@@ -337,15 +337,13 @@
 .ColorLinks a:hover {
   color: #F4D35E; }
 
-/* clases caja 17 ícono facebook y 18 ícono twitter en footer */
+/* clases caja 17 ícono facebook y twitter en footer */
 .caja17 {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  margin-top: 30px; }
-
-.caja18 {
-  margin-top: 30px; }
+  margin-top: 30px;
+  margin-left: 60px; }
 
 .cajaservicios {
   background-color: #333;
@@ -420,17 +418,13 @@
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
-    margin-top: 30px; }
-  .caja18 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
+    margin-left: 6px;
     margin-top: 30px; }
   .Formulario {
     color: white;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center; } }
 
 /* Hide Scrollbars */

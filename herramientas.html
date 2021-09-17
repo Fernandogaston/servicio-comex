@@ -20,7 +20,7 @@
     <!--logo y menu-->
     <nav class="navbar navbar-light navbar-expand-md bg-white">
       <div class="container-fluid">
-        <a class="navbar-brand"><img src="img/Logo3.png" alt="" class="animate__animated animate__bounceIn logo"></a>
+        <a href="index.html" class="navbar-brand"><img src="img/Logo3.png" alt="" class="animate__animated animate__bounceIn logo"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -42,10 +42,10 @@
                   Servicios
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-                  <li><a class="dropdown-item" href="servicios.html" style="color:#5815F8">Importación y Exportación</a></li>
-                  <li><a class="dropdown-item" href="servicios.html" style="color:#5815F8">Consultoría</a></li>
-                  <li><a class="dropdown-item" href="servicios.html" style="color:#5815F8">Trading</a></li>
-                  <li><a class="dropdown-item" href="servicios.html" style="color:#5815F8">Forwarding</a></li>
+                  <li><a class="dropdown-item" href="servicios.html#irImpoYexpo" style="color:#5815F8">Importación y Exportación</a></li>
+                  <li><a class="dropdown-item" href="servicios.html#irConsultoria" style="color:#5815F8">Consultoría</a></li>
+                  <li><a class="dropdown-item" href="servicios.html#irTrading" style="color:#5815F8">Trading</a></li>
+                  <li><a class="dropdown-item" href="servicios.html#irForwarding" style="color:#5815F8">Forwarding</a></li>
                 </ul>
               </li>
               <li class="nav-item">
@@ -101,29 +101,29 @@
                 </div>
                 <!--formulario-->
                 <form class="col-sm-5 mt-4 Formulario">
-                    <div class="col-sm-4"><p style="font-size: 20px">Contáctenos</p>
+                    <div class="col-sm-8"><p style="font-size: 20px">Contáctenos</p>
                       <label for="validationDefault01" class="form-label">Nombre y Apellido</label>
                       <input type="text" class="form-control" id="validationDefault01" value="" required>
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-sm-8">
                       <label for="validationDefault02" class="form-label">Empresa</label>
                       <input type="text" class="form-control" id="validationDefault02" value="" required>
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-sm-8">
                       <label for="validationDefaultUsername" class="form-label">e-mail</label>
                       <div class="input-group">
                         <span class="input-group-text" id="inputGroupPrepend2">@</span>
                         <input type="text" class="form-control" id="validationDefaultUsername"  aria-describedby="inputGroupPrepend2" required>
                       </div>
                     </div>
-                    <div class="col-sm-6">
+                    <div class="col-sm-8">
                       <label for="validationDefault03" class="form-label">Ciudad, Provincia</label>
                       <input type="text" class="form-control" id="validationDefault03" required>
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-sm-8">
                       <label for="validationDefault04" class="form-label"></label>
                       <select class="form-select" id="validationDefault04" required>
-                        <option selected disabled value="">Seleccione</option>
+                        <option selected disabled value="">Seleccione País</option>
                         <option>Argentina</option>
                         <option>Uruguay</option>
                         <option>Paraguay</option>
@@ -132,8 +132,8 @@
                         <option>Otro</option>
                       </select>
                     </div>
-                    <div class="col-sm-3">
-                      <label for="validationDefault05" class="form-label">Especifique Otro</label>
+                    <div class="col-sm-8">
+                      <label for="validationDefault05" class="form-label">Especifique Otro:</label>
                       <input type="text" class="form-control" id="validationDefault05" required>
                     </div>
                     <div class="col-6">
@@ -150,15 +150,13 @@
                 </form>   
             </div>
             <div class="row mt-5">
-                <div class="col-sm-6 caja17">
-                    <a href="https://www.facebook.com/"><img src="img/Facebook.png" height="40px" target="_blank"></a>
-                </div>
-                <div class="col-sm-6 caja18"> 
-                    <a href="https://twitter.com/"><img src="img/Twitter.png" height="40px" target="_blank"></a>
-                </div>
+              <div class="col-sm-6 caja17">
+                  <a href="https://www.facebook.com/"><img src="img/Facebook.png" height="40px" target="_blank"></a>
+                  <a href="https://twitter.com/"><img src="img/Twitter.png" height="40px" target="_blank"></a>
+              </div>
             </div>
             <div class="row mt-5">
-                <div class="col-sm-12 d-flex justify-content-between">
+                <div class="col-sm-12 d-flex justify-content-between mx-1 my-2 me-2">
                     <a href="#Inicio"><img src="img/Flechaarriba.png" height="30px"></a>
                     <a href=" https://api.whatsapp.com/send?phone=542494288014"><img src="img/whatsapp.png" height="40px" target="_blank"></a>
                 </div> 
