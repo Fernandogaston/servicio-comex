@@ -374,6 +374,10 @@
 
   /* cajas herramientas = página herramientas */
 
+  .tools {
+    height: 250px;
+  }
+
   .cajatitleherramientas {
     height: 40px;
     letter-spacing: 2px;
@@ -389,8 +393,6 @@
     font-weight: bold; }
   
   .cajaherramientas1 {
-    height: 250px;
-    width: 350px;
     background-image: url(../img/Contenedor.png);
     background-size: cover; }
   
@@ -409,7 +411,6 @@
   /* Media Queries */
 
   @media only screen and (max-width: 575px)
-
   {
     .logo{
       width: 220px;
@@ -456,6 +457,9 @@
       flex-direction: column;
       flex-wrap: wrap;
       align-items: center; }           
+
+    .tools {
+      height: 1500px;}
   }
 
   /* Hide Scrollbars */
