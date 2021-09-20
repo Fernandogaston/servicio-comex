@@ -86,7 +86,7 @@
     font-size: 16px;
     line-height: 30px;
     text-align: justify;
-    padding: 30px;
+    padding-top: 60px;
     height: 350px;
     background-image: linear-gradient(to right, #333, #808782); }
   
@@ -353,7 +353,7 @@
   .ColorLinks a:hover {
     color: #F4D35E; }
   
-  /* clases caja 17 ícono facebook y twitter en footer */
+  /* clases caja 17 ícono facebook, twitter y whatsapp en footer */
 
   .caja17 {
     display: flex;
@@ -428,8 +428,8 @@
     .Parrafo__Nosotros {
       text-align: center;
       font-size: smaller;
-      margin-left: 15px;
-      padding: 15px;
+      margin-left: 0px;
+      padding: 0px;
     }
 
     .caja14 {
@@ -462,7 +462,23 @@
       height: 1500px;}
   }
 
+  @media only screen and (max-width: 700px)
+  {
+    .Parrafo__Nosotros{
+      font-size: 12px;
+      padding-top: 20px;
+    }
+  }
+  
+  @media only screen and (max-width: 1100px)
+  {
+    .Parrafo__Nosotros{
+      font-size: 14px;
+      padding-top: 20px;
+    }
+  }
+
   /* Hide Scrollbars */
-  .scroll_bar {
+  html, body {
     overflow-x:hidden;
   }
